@@ -10,10 +10,14 @@ class NewsArticle extends Component {
   render () {
     return (
       <section className='news-article-story'>
+        <div className='image-container'>
+          <img src={this.props.articleItem.img}/>
+        </div>
         <h2>{this.props.articleItem.headline}</h2>
-        <img src={this.props.articleItem.img}/>
         <p>{this.props.articleItem.description}</p>
-        <a href={this.props.articleItem.url}>Click here for the story</a>
+        <div className='article-link'>
+          <a href={this.props.articleItem.url}>Click here for the story</a>
+        </div>
       </section>
     );
   }

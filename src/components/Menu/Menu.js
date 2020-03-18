@@ -10,6 +10,7 @@ class Menu extends Component {
   render () {
     return (
       <nav className='nav-menu'>
+        <h1>What's<span>New</span></h1>
         <p>Local News</p>
         <p>Technology</p>
         <p>Entertainment</p>

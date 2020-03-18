@@ -1,8 +1,25 @@
 img {
-  height: 100px;
+  object-fit: contain;
 }
 
+.image-container {
+  overflow: hidden;
+  max-height: 300px;
+}
 
 .news-article-story {
+  background-color: white;
+  margin: 5%;
+  width: 30%;
+}
+
+.article-link {
+  background-color: orange;
   color: white;
+  min-height: 50px;
+  padding-top: 2%
+}
+
+a {
+    color: white; text-decoration: none;
 }

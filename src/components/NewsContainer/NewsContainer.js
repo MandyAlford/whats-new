@@ -8,13 +8,15 @@ class NewsContainer extends Component {
   }
 
   render () {
-    return this.props.localArticles.map(article => {
-      return (
-          <NewsArticle articleItem={article}/>
-      );
-    })
-
-
+    return (
+     <section className='news-stories-container'>
+        {this.props.localArticles.map(article => {
+          return (
+            <NewsArticle articleItem={article}/>
+          );
+        })}
+      </section>
+    )
   }
 }
 

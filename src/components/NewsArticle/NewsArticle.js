@@ -9,10 +9,12 @@ class NewsArticle extends Component {
 
   render () {
     return (
-      <div>
-      <h2>{this.props.articleItem.headline}</h2>
-      <img src={this.props.articleItem.img} alt={this.props.articleItem.description}/>
-      {this.props.articleItem.url}</div>
+      <section className='news-article-story'>
+        <h2>{this.props.articleItem.headline}</h2>
+        <img src={this.props.articleItem.img}/>
+        <p>{this.props.articleItem.description}</p>
+        <a href={this.props.articleItem.url}>Click here for the story</a>
+      </section>
     );
   }
 }

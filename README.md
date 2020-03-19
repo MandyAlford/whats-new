@@ -5,7 +5,7 @@ A React based application that displays news articles of various categories (loc
 <img width="1875" alt="Screen Shot 2020-03-19 at 3 53 46 PM" src="https://user-images.githubusercontent.com/54858455/77119194-95411680-69fb-11ea-8526-49e282a086f9.png">
 
 ## Teachnologies Used
-This application was built with `create-react-app`. Testing via `react testing liarary` and `jest`
+This application was built with `create-react-app`. Testing via `react testing liarary` and `jest`.
 
 ![whats new](https://user-images.githubusercontent.com/54858455/77119056-4abf9a00-69fb-11ea-983f-884ab8a91c5b.gif)
 ![whats new 2](https://user-images.githubusercontent.com/54858455/77119450-18fb0300-69fc-11ea-83aa-931bba9cd2eb.gif)

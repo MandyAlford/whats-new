@@ -11,11 +11,11 @@ class Menu extends Component {
     return (
       <nav className='nav-menu'>
         <h1>What's<span>New</span></h1>
-        <p onClick={this.props.updateCurrentCategory}>Local</p>
-        <p onClick={this.props.updateCurrentCategory}>Technology</p>
-        <p onClick={this.props.updateCurrentCategory}>Entertainment</p>
-        <p onClick={this.props.updateCurrentCategory}>Science</p>
-        <p onClick={this.props.updateCurrentCategory}>Health</p>
+        <h2 onClick={this.props.updateCurrentCategory}>Local</h2>
+        <h2 onClick={this.props.updateCurrentCategory}>Technology</h2>
+        <h2 onClick={this.props.updateCurrentCategory}>Entertainment</h2>
+        <h2 onClick={this.props.updateCurrentCategory}>Science</h2>
+        <h2 onClick={this.props.updateCurrentCategory}>Health</h2>
       </nav>
     )
   }

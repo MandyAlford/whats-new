@@ -2,6 +2,8 @@
 
 A React based application that displays news articles of various categories (local, technology, health, entertainment, science) or filter via the input search value. The user can click the link on the orange section of each story and navigate to the full article from the original source.  
 
+<img width="1875" alt="Screen Shot 2020-03-19 at 3 53 46 PM" src="https://user-images.githubusercontent.com/54858455/77119194-95411680-69fb-11ea-8526-49e282a086f9.png">
+
 ## Teachnologies Used
 This application was built with `create-react-app`. Testing via `react testing liarary` and `jest`
 

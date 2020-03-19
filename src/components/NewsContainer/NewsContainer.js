@@ -10,7 +10,7 @@ class NewsContainer extends Component {
   render () {
     return (
      <section className='news-stories-container'>
-        {this.props.localArticles.map(article => {
+        {this.props.currentArticles.map(article => {
           return (
             <NewsArticle articleItem={article}/>
           );

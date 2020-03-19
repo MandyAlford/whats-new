@@ -1,0 +1,20 @@
+.nav-menu {
+  color: white;
+  padding: 2%;
+  width: 25%;
+}
+
+h1 {
+  font-size: 3em;
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+
+h2 {
+  font-size: 2em;
+  padding: 5%;
+}
+
+span {
+  color: yellow;
+}

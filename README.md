@@ -5,6 +5,8 @@ A React based application that displays news articles of various categories (loc
 ## Teachnologies Used
 This application was built with `create-react-app`. Testing via `react testing liarary` and `jest`
 
+![whats new](https://user-images.githubusercontent.com/54858455/77119056-4abf9a00-69fb-11ea-983f-884ab8a91c5b.gif)
+
 
 ## Set Up
 

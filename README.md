@@ -1,6 +1,6 @@
 # What's New?
 
-A React based application that displays news articles of various categories (local, technology, health, entertainment, science) or filter via the input search value.   
+A React based application that displays news articles of various categories (local, technology, health, entertainment, science) or filter via the input search value. The user can click the link on the orange section of each story and navigate to the full article from the original source.  
 
 ## Teachnologies Used
 This application was built with `create-react-app`. Testing via `react testing liarary` and `jest`

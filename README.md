@@ -28,5 +28,5 @@ Implement React components in a web application. Learn how components interact w
 
 I would like to pull data down from a local url via a fetch request, and utilize a larger/surrent source of news articles as well as add additional styling for the desktop version of this application for a better UX. Additional testing is also needed.
 
-Further iterations would include a responsive design, a mobile site, as well accessibility needs for all users. 
+Further iterations would include a responsive design, a mobile site, and accessibility needs for all users. 
 

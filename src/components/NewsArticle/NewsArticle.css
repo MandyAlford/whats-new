@@ -10,13 +10,14 @@ img {
 .news-article-story {
   background-color: white;
   margin: 5%;
+  min-height: 500px;
   width: 30%;
 }
 
 .article-link {
   background-color: orange;
   color: white;
-  margin-bottom: 0;
+  margin-bottom: -50px;
   margin-top: 5%;
   min-height: 50px;
   padding-top: 2%
@@ -24,4 +25,8 @@ img {
 
 a {
     color: white; text-decoration: none;
+}
+
+p {
+  padding: 4%;
 }

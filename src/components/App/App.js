@@ -25,9 +25,11 @@ class App extends Component {
   render () {
     return (
       <div className="app">
-        <SearchForm articleSearch={this.searchForArticles}/>
         <Menu updateCurrentCategory={this.updateCurrentArticles}/>
-        <NewsContainer currentArticles={this.state[this.state.currentCategory]}/>
+        <div className='search'>
+          <SearchForm articleSearch={this.searchForArticles}/>
+          <NewsContainer currentArticles={this.state[this.state.currentCategory]}/>
+        </div>
       </div>
     );
   }

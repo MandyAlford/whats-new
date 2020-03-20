@@ -14,7 +14,7 @@ class SearchForm extends Component {
       type='text'
       placeholder='Search Articles'
     />
-    <button
+    <button className='search-button'
       onClick={this.props.articleSearch}
     >
       Search
